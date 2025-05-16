@@ -1,0 +1,100 @@
+
+body{
+    background-color: #def2f5;
+    font-family: sans-serif;
+}
+.head_m{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #000000ad;
+    text-align:left;
+    height: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    margin-bottom: 50px;
+  }
+  .logo_m{
+    margin-top: 5%;
+  }
+  .navbar {
+    display: flex;
+  }
+  .navbar a:hover{
+    background: #3f3f3f;
+    color: white;
+    transform: scale(1.05);
+    transition: transform 0.3s ease;    
+  }
+  .navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+.title{
+    color: #000000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 60px;
+}
+.title i{
+    font-size: 30px;
+}
+.tabla{
+    margin-top: 2%;
+    background-color: #a5e7f1b9;
+    border-radius: 6%;
+    border: #000000;
+    font-family: sans-serif;
+    color: rgb(26, 26, 26);
+    margin-right: 20px;
+    margin-left: 2%;
+    font-size: 35px;    
+}
+.logo{
+    margin-left: 80%;
+    margin-top: -2%;
+    position: absolute;
+}
+.head{
+    color: rgb(255, 255, 255);
+    background: url(img/header.jpg);
+    padding: 0.5px 15px;
+    text-align: left;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+.head n{
+    color: rgb(15, 15, 15);
+    text-align: center;
+    height: 150px;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+.content {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact {
+    margin-top: 15%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background: #47b2d3;
+    width: 60%;
+    height: 30%;
+    border-radius: 20%;
+    border-style: none;
+    position: absolute;
+    font-size: 20px;
+ }

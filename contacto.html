@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style_r.css">
+    <title>Contactanos</title>
+</head>
+<style>
+    body {
+        opacity: 0;
+        transition: opacity 1s ease-in;
+    }
+    body.loaded {
+        opacity: 1;
+    }
+</style>
+<body>
+    <div class="head n">
+        <div class="logo">
+            <img src="img/logo.png" height="180px" width="200px" alt="logo">
+        </div>
+    <h1>Contacto:</h1>
+    </div>
+    <h3 class="title">Ubícanos</h3>
+<section class="content contact">
+    
+    <div>
+        <i class="fas fa-phone"></i>
+        <span> (01) 5861345 </span>
+    </div>
+    <div>
+        <i class="fas fa-envelope"></i>
+        <span>ie5076nsdm@gmail.com</span>
+    </div>
+    <div>
+        <i class="fas fa-map-marker-alt">
+            <span>Jr. victor espinoza - marquez, Callao, Peru</span>
+        </i>
+    </div>
+</section>
+<script>
+    window.onload = function() {
+        document.body.classList.add('loaded');
+    };
+</script>
+</body>
+</html>

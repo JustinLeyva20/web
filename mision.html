@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_m.css">
+    <title>Mision</title>
+</head>
+<style>
+    body {
+        opacity: 0;
+        transition: opacity 1s ease-in;
+    }
+    body.loaded {
+        opacity: 1;
+    }
+</style>
+<body>
+    <div class="head">
+        <div class="head-left">
+          <img src="img/logo.png" alt="logo" class="logo-img">
+          <h1 class="school-name">I.E. 5076 NUESTRA SEÑORA DE LAS MERCEDES</h1>
+        </div>
+        <nav class="navbar">
+          <a href="index.html">Inicio</a>
+          <a href="mision.html">Misión</a>
+          <a href="vision.html">Visión</a>
+          <a href="objetivos.html">Objetivos</a>
+        </nav>
+      </div>
+      <section class="content-header">
+        <div class="header-title">
+          <h2>Misión</h2>
+        </div>
+        <div class="header-text">
+          <p class="text">
+            Buscamos insertar en los colegios, escuelas y diferentes ámbitos laborales un programa que
+            fomente la cultura de paz y de la reflexión, que armonice el ambiente. 
+            Donde los conflictos se transformen en una instancia de crecimiento, fomentando
+            el diálogo constructivo, la tolerancia y el respeto a la diversidad.<br><br>
+            La misión de la organización es contribuir a la prevención y erradicación del bullying, 
+            así como a la promoción de un entorno educativo y social seguro, inclusivo y respetuoso
+            para todos.<br><br>
+            Nos comprometemos a proteger el bienestar de los jóvenes y promover un entorno educativo
+            en el que cada niño y adolescente pueda crecer, aprender y prosperar libre de miedo,
+            intimidación y violencia. Nuestra misión es impulsar un cambio cultural positivo y
+            duradero que fomente el respeto, la empatía y la inclusión en todas las aulas y comunidades.
+          </p>
+        </div>
+      </section>      
+</section>
+    <script>
+        window.onload = function() {
+            document.body.classList.add('loaded');
+        };
+    </script>
+</body>
+</html>
